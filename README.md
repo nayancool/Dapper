@@ -45,8 +45,7 @@ Step 1
 * Provide querying static and dynamic data over the database.
 * Get generic results for simple or complex data types.
 * Dapper allows storing bulk data at once.
-* 
-  ![image](https://github.com/nayancool/Dapper/assets/64027222/ee5154a1-e3fd-4abe-9e68-c9876f08ef1d)
+
 
 
 
@@ -84,13 +83,15 @@ CREATE TABLE Product (
    * Core and Application - All the interfaces and domain models live here.
    * Infrastructure - Dapper will present here along with implementaion of repository and other interfaces.
    * WebApi - API controllers to access the repositories.
-
-<img width="240" alt="image" src="https://github.com/nayancool/Dapper/assets/64027222/57a3df2c-b412-4c60-9997-7a2ce7b6d755">
-
-
+  
  * In Dapper.Core class library will create folder named Entities and add class named Product then will add all columns name in class product.
  * In Dapper.Application class library will create folder named interfaces and add Interface name IGenericRepository, IProductRepository, IUnitOfWork.
  * In Dapper.Infrastrucure class library will create a folder named Repositories. **add NuGet package named Dapper in Dapper.Infrastrucure**
  * In Dapper.WebApi add controller name ProductController.
 
+## 7. Refrences
+
+https://github.com/nayancool/dapper
+https://www.c-sharpcorner.com/UploadFile/e4e3f7/dapper-king-of-micro-orm-C-Sharp-net/
+https://www.dotnettricks.com/learn/aspnetcore/what-is-dapper-and-how-to-use-dapper-in-aspnet-core
   
